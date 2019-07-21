@@ -1,15 +1,15 @@
 public class Test {
-    private String name;
+    private String stuName;
 
-    public Test(String name) {
-        this.name = name;
+    public Test(String stuName) {
+        this.stuName = stuName;
     }
 
-    public String getName() {
-        return name;
+    public String getStuName() {
+        return stuName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setStuName(String stuName) {
+        this.stuName = stuName;
     }
 }
